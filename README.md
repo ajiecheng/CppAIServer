@@ -1,8 +1,5 @@
 # CppAIService
-CppAIserver项目是基于muduo网络库，Reactor模型构建的HTTTP框架服务
-
-## 核心功能
-实现了登录注册、AI 对话、简易图像识别
+CppAIserver项目是基于muduo网络库，Reactor模型构建的HTTTP框架服务，实现了登录注册、AI 对话、简易图像识别功能
 
 ## 技术栈
 C++17、muduo、OpenSSL、MySQL、STL/RAII、多线程、HTTP/HTTPS
