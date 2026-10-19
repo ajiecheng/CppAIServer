@@ -72,10 +72,11 @@ MysqlUtil::init("tcp://127.0.0.1:3306", "your_user", "your_password", "ChatHttpS
 ### AI 模型 API Key
 
 API Key 通过环境变量或配置文件加载（优先环境变量）：
+```
 | 阿里百炼 | `DASHSCOPE_API_KEY` | [获取 Key](https://bailian.console.aliyun.com/) |
 | 火山豆包 | `DOUBAO_API_KEY` | [获取 Key](https://console.volcengine.com/) |
 如果环境变量未设置，程序会自动读取 `~/.cppaiservice/apikey.conf` 文件（第一行为 Key）。
-
+```
 ## 运行
 
 ```bash
@@ -113,7 +114,3 @@ sudo ./build/http_server
 | `BUILD_WITH_MYSQL` | ON | 启用 MySQL 支持 |
 | `BUILD_WITH_ONNX` | ON | 启用 ONNX Runtime 推理 |
 | `BUILD_WITH_AMQP` | ON | 启用 RabbitMQ 消息队列 |
-
-## License
-
-
